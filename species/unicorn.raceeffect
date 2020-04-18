@@ -23,7 +23,7 @@
 			{"stat" : "energyRegenPercentageRate", "baseMultiplier" : 0.66},
 			{"stat" : "powerMultiplier", "baseMultiplier" : 0.8},
 			{"stat" : "maxEnergy", "baseMultiplier" : 0.8}
-		]
+			]
 		}
 	],
 	"weaponEffects":
