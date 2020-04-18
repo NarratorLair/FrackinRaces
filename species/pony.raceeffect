@@ -72,7 +72,7 @@
 		],
 		"stats": [
 			{
-				"stat": "protecion",
+				"stat": "protection",
 				"effectiveMultiplier": 0.66
 			}
 		],
@@ -130,7 +130,7 @@
 					"stat": "critChance",
 					"amount": 5
 				}
-			]
+			],
 			"controlModifiers":{"speedMultiplier": 1.05}
 		},
 		{
@@ -138,8 +138,8 @@
 			"stats": [{
 					"stat": "powerMultiplier",
 					"baseMultiplier": 1.15
-				},
-			]
+				}
+			],
 			"controlModifiers":{"speedMultiplier": 1.05}
 		},
 		{
