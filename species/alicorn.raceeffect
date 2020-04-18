@@ -1,4 +1,6 @@
 [
+		"stats":
+		[
 		{
 			"stat": "maxHealth",
 			"baseMultiplier": 1.05
