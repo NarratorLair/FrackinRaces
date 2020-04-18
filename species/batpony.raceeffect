@@ -176,7 +176,7 @@
 				"stat": "critDamage",
 				"amount:" 0.175
 			}
-		]
+		],
 		"controlModifiers": {speedModifier: 1.06}
 		}
 	]
