@@ -122,9 +122,9 @@
 		"stats": [ 
 			{
 				"stat": "critDamage",
-				"amount:" 0.20
+				"amount:" 20
 			}
-		]
+		],
 		"controlModifiers": {airJumpModifier: 1.10}
 		}
 	]
