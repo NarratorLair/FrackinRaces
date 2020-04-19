@@ -1,0 +1,75 @@
+{
+	"stats": [
+		{ "stat": "maxHealth" , "baseMultiplier": 1.05 },
+		{ "stat": "maxEnergy" , "baseMultiplier": 1.15 },
+		{ "stat": "energyRegenPercentageRate", "baseMultiplier": 1.05 },
+		{ "stat": "fuCharisma", "baseMultiplier": 1.1 },
+		{ "stat": "fallDamageMultiplier", "baseMultiplier": 0.4 },
+		{ "stat": "cosmicResistance", "amount": 0.45 },
+		{ "stat": "shadowResistance", "amount": -0.05 },
+		{ "stat": "radioactiveResistance", "amount": -0.15 },
+		{ "stat": "electricResistance", "amount": -0.3 },
+		{ "stat": "physicalResistance", "amount": -0.25 },
+		{ "stat": "foodDelta", "baseMultiplier": 1.3 }
+	],
+	"diet" : "herbivore",
+	"envEffects":
+	[
+		{
+			"biomes": [ "garden", "arboreal", "jungle", "forest", "savannah" ],
+			"stats": [
+				{ "stat": "physicalResistance", "amount": 0.1 },
+				{ "stat": "maxEnergy", "baseMultiplier": 1.1 }
+			],
+			"controlModifiers": { "speedModifier": 1.05, "airJumpModifier": 1.05 }
+		},
+		{
+			"biomes": [ "alien", "atropus", "atropusdark", "tentacle", "bloodstonesea", "bloodstoneseafloor", "strangesea", "strangeseafloor" ],
+			"stats": [
+				{ "stat": "maxHealth", "baseMultiplier": 0.85 },
+				{ "stat": "maxEnergy", "baseMultiplier": 0.9 },
+				{ "stat": "energyRegenPercentageRate", "baseMultiplier": 0.85 },
+			]
+		},
+		{
+			"biomes": "hot",
+			"stats": [
+				{ "stat": "maxHealth", "baseMultiplier": 0.9 },
+				{ "stat": "energyRegenPercentageRate", "baseMultiplier": 0.7 }
+			],
+			"controlModifiers": { "speedModifier": 0.88, "airJumpModifier": 0.88 }
+		},
+		{
+			"biomes": "cold",
+			"stats": [
+				{ "stat": "maxHealth", "baseMultiplier": 0.9 },
+				{ "stat": "energyRegenPercentageRate", "baseMultiplier": 0.7 }
+			],
+			"controlModifiers": { "speedModifier": 0.88, "airJumpModifier": 0.88 }
+		}
+	],
+	"weaponEffects": [
+		{
+			"weapons": [ "staff" ],
+			"stats": [
+				{ "stat": "powerMultiplier", "baseMultiplier": 1.1 },
+				{ "stat": "critChance", "amount": 1.5 }
+			]
+		},
+		{
+			"weapons": [ "thrown" ],
+			"controlModifiers": { "speedModifier": 1.06 }
+		},
+		{
+			"weapons": [ "magnorb" ],
+			"stats": [ { "stat": "critDamage", "amount": 0.15 } ]
+		},
+		{
+			"weapons": [ "rocketlauncher" ],
+			"stats": [
+				{ "stat": "powerMultiplier", "baseMultiplier": 1.12 },
+				{ "stat": "grit" , "baseMultiplier": -0.4 }
+			]
+		}
+	]
+}
